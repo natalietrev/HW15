@@ -7,6 +7,7 @@ public class Dungeon
     private string name;
     private Room startRoom;
     private Room currentRoom;
+    private Room previousRoom;
     private Player thePlayer;
 
     public Dungeon(string name)
