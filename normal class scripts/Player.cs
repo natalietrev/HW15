@@ -18,8 +18,17 @@ public class Player
         return this.currentRoom;
     }
 
+    public Room getPreviousRoom()
+    {
+        return this.previousRoom;
+
     public void setCurrentRoom(Room r)
     {
         this.currentRoom = r;
     }
+
+    public void setPreviousRoom(Room p)
+    {
+        this.previousRoom = p;
+
 }
